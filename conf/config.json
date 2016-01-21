@@ -1,0 +1,37 @@
+{ "items": [
+  "official-android",
+  "yunfan-android",
+  ],
+  "official-qq-android-server": {
+    "protocol": "sftp",
+    "ip": "114.114.114.114",
+    "port": 22,
+    "username": "xxxx",
+    "password": "xxxx"
+  },
+  "yunfan-android-server": {
+    "protocol": "ftp",
+    "ip": "114.114.114.114",
+    "port": 21,
+    "username": "xxx",
+    "password": "xxxxxxxxx"
+  },
+  "official-android": {
+    "comment": "android 官网版本及官网升级版本",
+    "serverInfo": "official-qq-android-server",
+    "suffix": "apk",
+    "dstPath": "/opt/webapps/xxxx.xxxx.com/ivp/down/",
+    "backupPath": "apk_backup/",
+    "promptText": "下载地址:",
+    "downloadUrlPrefix": "http://xxxx.xxxx.com/ivp/down/"
+  },
+  "yunfan-android": {
+    "comment": "android 云帆版本及云帆升级版本",
+    "serverInfo": "yunfan-android-server",
+    "suffix": "apk",
+    "dstPath": "./",
+    "backupPath": "apk_backup/",
+    "promptText": "下载地址:",
+    "downloadUrlPrefix": "http://dl.yunfan.com/"
+  }
+}
